@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
@@ -11,7 +12,7 @@ const Createuser = () => {
   const submit = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:3000/api/user/create", { name, email, address })
+      .post("https://backend-code-6-lhwp.onrender.com", { name, email, address })
       .then((result) => {
         console.log(result.data);
         navigate("/");
