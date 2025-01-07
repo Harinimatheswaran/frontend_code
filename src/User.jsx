@@ -8,7 +8,11 @@ const User = () => {
 
   useEffect(() => {
     axios
+<<<<<<< HEAD
       .get("https://localhost:3000/api/user")
+=======
+      .get("https://backend-code-6-lhwp.onrender.comhttps://backend-code-6-lhwp.onrender.com")
+>>>>>>> 66c2a04144d4d4fd6197933f22c58f71656583d9
       .then((res) => {
         console.log(res.data);
         setUsers(res.data.data); // Assuming the API returns data in res.data.data
@@ -21,7 +25,11 @@ const User = () => {
   const deleteUser = (id) => {
     if (window.confirm("Are you sure you want to delete this user?")) {
       axios
+<<<<<<< HEAD
         .delete(`https://localhost:3000/api/user`)
+=======
+        .delete(`https://backend-code-6-lhwp.onrender.com`)
+>>>>>>> 66c2a04144d4d4fd6197933f22c58f71656583d9
         .then(() => {
           alert("User deleted successfully");
           setUsers(users.filter((user) => user._id !== id)); // Update the UI after deletion

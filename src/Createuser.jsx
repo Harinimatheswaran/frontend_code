@@ -53,4 +53,8 @@ const Createuser = () => {
   );
 };
 
+<<<<<<< HEAD
 export default Createuser;
+=======
+export default Createuser;
+>>>>>>> 66c2a04144d4d4fd6197933f22c58f71656583d9

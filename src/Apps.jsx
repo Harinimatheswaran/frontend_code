@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 66c2a04144d4d4fd6197933f22c58f71656583d9
 import React from "react";
 
 import { BrowserRouter as Router , Routes , Route } from "react-router-dom";
